@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.map do |p_call|
-    
+    p_call.capitalize + "!"
   end
 end
 
