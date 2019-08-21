@@ -22,4 +22,10 @@ def find_the_cheese(array)
   array.select do |item|
     cheese_types.include?(item)
   end
+  
+  if array == []
+    NIL
+  else
+    array
+  end
 end
