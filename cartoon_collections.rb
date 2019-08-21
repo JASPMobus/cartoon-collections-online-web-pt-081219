@@ -22,5 +22,4 @@ def find_the_cheese(array)
   cheese_array = array.select { |item| cheese_types.include?(item) }
   
   cheese_array == [] ? nil : cheese_array[0]
-  end
 end
